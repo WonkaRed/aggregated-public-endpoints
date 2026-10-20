@@ -4,6 +4,7 @@
 
 | Name | Description | Example call | Limits | Region | Auth | Status |
 |---|---|---|---|---|---|---|
+| [OSM API 0.6 node history](https://wiki.openstreetmap.org/wiki/API_v0.6#History:_GET_/api/0.6/[node%7Cway%7Crelation]/#id/history) | Full version history of a single OSM node as JSON. | `https://api.openstreetmap.org/api/0.6/node/1/history.json` | ODbL; OSM API fair use | global | none | 200 |
 | [OSM API 0.6 notes JSON by bbox](https://wiki.openstreetmap.org/wiki/API_v0.6#Retrieving_notes_data_by_bounding_box:_GET_/api/0.6/notes) | Open OSM map notes in a Berlin bbox as JSON (GeoJSON-style features). | `https://api.openstreetmap.org/api/0.6/notes.json?bbox=13.3,52.4,13.5,52.6&limit=5` | OSM API usage policy; ODbL | DE | none | 200 |
 | [OSM API 0.6 notes search JSON](https://wiki.openstreetmap.org/wiki/API_v0.6#Retrieving_notes_data) | OSM Notes in a Berlin bbox as GeoJSON, filtered to open notes, limit 5 | `https://api.openstreetmap.org/api/0.6/notes.json?bbox=13.3,52.5,13.5,52.6&limit=5&closed=0` | ODbL; OSM API usage policy applies | DE | none | 200 |
 | [OSM changeset replication state](https://wiki.openstreetmap.org/wiki/Planet.osm) | YAML state of the OSM changeset replication feed: last sequence number and last\_run time. | `https://planet.openstreetmap.org/replication/changesets/state.yaml` | ODbL; planet server fair use | global | none | 200 |

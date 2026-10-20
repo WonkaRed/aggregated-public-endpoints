@@ -269,11 +269,16 @@ Compiled from community API lists plus original research, live-checked {date}. D
 """
 
 
+def known_bad(e):
+    """Raw or credential-scrubbed endpoint listed in scripts/known-bad.tsv."""
+    return bool(e) and (e in KNOWN_BAD or scrub(e, "", []) in KNOWN_BAD)
+
+
 def main(path):
     atlas = json.loads(Path(path).read_text(encoding="utf-8"))
     assert set(atlas) == {"date", *SECTIONS}, "unexpected atlas sections"
     rows = [{**r, "section": s} for s in SECTIONS for r in atlas[s]
-            if r["n"] not in EXCLUDE_NAMES and r.get("e") not in KNOWN_BAD and not LOCAL_HOST.match(r.get("e") or r["u"])]
+            if r["n"] not in EXCLUDE_NAMES and not known_bad(r.get("e")) and not LOCAL_HOST.match(r.get("e") or r["u"])]
     print(f"excluded {sum(map(len, (atlas[s] for s in SECTIONS))) - len(rows)} rows (adult content, local hosts, known-bad hosts)")
     counts = {"dropped": Counter(), "conflicts": 0, "to_key": 0}
     kept = dedupe(rows, counts)
@@ -289,7 +294,7 @@ def main(path):
     dropped = sum(counts["dropped"].values())
     assert len(rows) == sum(map(len, grouped.values())) + dropped, "row identity broken"
 
-    for d in ("open", "signup", "data"):
+    for d in ("open", "signup"):
         shutil.rmtree(ROOT / d, ignore_errors=True)
     for g in GROUPS:
         write(ROOT / "data" / f"{g}.jsonl", "".join(json.dumps(r, ensure_ascii=False) + "\n" for r in grouped[g]))
