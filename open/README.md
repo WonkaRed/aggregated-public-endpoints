@@ -2,9 +2,9 @@
 
 Endpoints that answered without a signup. Check the Auth column: "unconfirmed, check docs" means the source did not say whether a key is needed.
 
-Total: 28,404. [Back to the main README](../README.md)
+Total: 27,761. [Back to the main README](../README.md)
 
-## APIs (22,609)
+## APIs (22,595)
 
 - [Accessibility](apis/accessibility.md) (313)
 - [Animals](apis/animals.md) (134)
@@ -14,7 +14,7 @@ Total: 28,404. [Back to the main README](../README.md)
 - [Books & Literature](apis/books-and-literature.md) (126)
 - [Business & Companies](apis/business-and-companies.md) (208)
 - [Calendar & Holidays](apis/calendar-and-holidays.md) (108)
-- [Cryptocurrency & Blockchain](apis/cryptocurrency-and-blockchain.md) (622)
+- [Cryptocurrency & Blockchain](apis/cryptocurrency-and-blockchain.md) (608)
 - [Currency & Exchange](apis/currency-and-exchange.md) (158)
 - [Data Engineering](apis/data-engineering.md) (45)
 - [Data Validation & Utilities](apis/data-validation-and-utilities.md) (306)
@@ -83,7 +83,7 @@ Total: 28,404. [Back to the main README](../README.md)
 - [Vehicles](apis/vehicles.md) (100)
 - [Weather](apis/weather.md) (408)
 
-## RPC (2,147)
+## RPC (1,518)
 
 [part 1](rpc-part-1.md), [part 2](rpc-part-2.md)
 

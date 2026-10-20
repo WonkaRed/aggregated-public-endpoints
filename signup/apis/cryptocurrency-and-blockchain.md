@@ -14,7 +14,6 @@
 | [Alchemy Ethereum](https://www.alchemy.com/docs/) | Ethereum Node-as-a-Service Provider | docs only |  | global | free key | 200 |
 | [Alchemy free tier](https://docs.alchemy.com/) | Node and enhanced APIs, free key | `https://eth-mainnet.g.alchemy.com/v2/YOUR_KEY` |  | global | free key | 401 |
 | [Alchemy NFT API](https://www.alchemy.com/docs/reference/nft-api-quickstart) | NFT ownership, metadata, floor prices | `https://eth-mainnet.g.alchemy.com/nft/v3/demo/getNFTsForOwner?owner=vitalik.eth` | 'demo' key works at low rate | global | free key | 200 |
-| [Ankr Advanced API](https://www.ankr.com/docs/advanced-api/overview/) | Multichain token/NFT/query API, public free tier | `https://rpc.ankr.com/multichain` |  | global | key required | 401 |
 | [APIVerve](https://apiverve.com) | Get instant access to over 120+ APIs for free, built with quality, consistency, and reliability in mind. The free plan covers up to 50 API Tokens per month. (Possibly taken down, 2025-06-25) | `https://apiverve.com` |  | global | free key | 200 |
 | [Beaconcha.in API](https://docs.beaconcha.in/) | Ethereum beacon chain explorer API: validators, epochs, slots (free key tier) | `https://beaconcha.in/api/v1/epoch/latest` |  | global | key required | 401 |
 | [Beaconcha.in gas oracle (gasnow)](https://etherchain.org/) | Etherchain gas price oracle | `https://beaconcha.in/api/v1/execution/gasnow` |  | global | key required | 401 |
@@ -75,10 +74,6 @@
 | [DefiLlama Bridge Volume](https://api-docs.defillama.com/) | Historical bridge volume for a chain | `https://bridges.llama.fi/bridgevolume/Ethereum` |  | global | payment required | 402 |
 | [DefiLlama Bridges](https://api-docs.defillama.com/) | All bridges with volume | `https://bridges.llama.fi/bridges?includeChains=true` |  | global | payment required | 402 |
 | [Degenscan Intel](https://intel.degenscan.io/carry) | Hyperliquid funding on every dex (HIP-3 incl.), cross-dex spreads, event feed; free trial key | docs only |  | global | free key | 200 |
-| [DexPaprika Networks](https://docs.dexpaprika.com/) | Supported chains for DEX data, keyless | `https://api.dexpaprika.com/networks` | free, no key | global | payment required | 402 |
-| [DexPaprika Pools](https://docs.dexpaprika.com/) | Top DEX pools on a network | `https://api.dexpaprika.com/networks/ethereum/pools` |  | global | payment required | 402 |
-| [DexPaprika Search](https://docs.dexpaprika.com/) | Search tokens, pools, DEXes | `https://api.dexpaprika.com/search?query=uniswap` |  | global | payment required | 402 |
-| [DexPaprika Stats](https://docs.dexpaprika.com/) | Global counts of chains, DEXes, pools, tokens | `https://api.dexpaprika.com/stats` |  | global | payment required | 402 |
 | [Dune API](https://docs.dune.com/api-reference/overview/introduction) | Query results of Dune SQL queries, free key | `https://api.dune.com/api/v1/query/1215383/results` |  | global | free key | 401 |
 | [Dwellir](https://www.dwellir.com/docs) | RPC endpoints for 150+ blockchain networks, including Ethereum, Solana, Polkadot and Hyperliquid | docs only |  | global | free key | 200 |
 | [dYdX](https://docs.dydx.exchange/) | Decentralized cryptocurrency exchange | docs only |  | global | free key | 200 |

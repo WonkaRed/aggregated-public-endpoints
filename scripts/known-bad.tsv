@@ -1,0 +1,653 @@
+# endpoint (exact "e" value of an atlas row) <TAB> why it is dropped. Checked 2026-10-20; build.py skips these rows.
+https://0xrpc.io/mint	failed probe 2026-10-20: dns_error
+https://0xrpc.io/mordor	failed probe 2026-10-20: dns_error
+https://1000.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://100011.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1008.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://10086.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://10096.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1010.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://10101.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://10222.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://10241024.rpc.thirdweb.com	failed probe 2026-10-20: stale_head
+https://10242.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://106.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://108160679.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://108801.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://10946.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1099.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1100.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://110000.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://110001.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://110003.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://110004.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://110005.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://110006.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://110007.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://110008.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://111111.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://111222333444.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1117.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1122334455.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://112358.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://11297108109.rpc.thirdweb.com	failed probe 2026-10-20: no_head, no_head_height
+https://113.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1130.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1146703430.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1149.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://11501.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://11521.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1188.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1197.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1200.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://12020.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://12052.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1209.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://121.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1213.rpc.thirdweb.com	failed probe 2026-10-20: stale_head
+https://1229.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1231.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://12324.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://123321.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1234.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1235.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://124.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1246.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://12553.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://127.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1273227453.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://128.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1280.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1284.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1287.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1288.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1300.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1313114.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1313161556.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1313161560.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1313500.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://131419.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://13308.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://13396.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1353.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://136.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://13600.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1379.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1380012617.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1380996178.rpc.thirdweb.com	failed probe 2026-10-20: stale_head
+https://13812.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://142.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1424.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://14288640.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1433.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://144.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1440.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1455.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1456.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://147.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://148.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1490.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://15003.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1501.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1506.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://151.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://152.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1559.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://157.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://16116.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://161212.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://16180.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1628.rpc.thirdweb.com	failed probe 2026-10-20: stale_head
+https://163.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1648.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1657.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://166.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1662.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1666600000.rpc.thirdweb.com	failed probe 2026-10-20: stale_head
+https://1666900001.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://16718.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://17071.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://176.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1773.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://17777.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1802203764.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://18071918.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://181.rpc.thirdweb.com	failed probe 2026-10-20: stale_head
+https://18122.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1818.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1821.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1853.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1856.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://187.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://188.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1898.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1899.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://190.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://19011.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1904.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1909.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1911.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://19224.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1923.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1951.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1970.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1972.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://198.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1987.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1996.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1997.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://1rpc.io/one	failed probe 2026-10-20: dns_error
+https://20.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://2004.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://20041.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://201018.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://2016.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://2018.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://201804.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://20201022.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://2026.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://2049.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://2099156.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://210.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://2100.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://2109.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://211.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://2112.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://2121.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://2122.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://214.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://2140.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://2152.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://217.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://2199.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://22.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://2202.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://220315.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://22222.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://2223.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://222555.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://224168.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://225.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://2300.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://2309.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://2330.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://2332.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://23451.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://24.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://2400.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://2415.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://2425.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://245022929.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://246529.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://25186.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://2559.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://256256.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://2569.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://2606.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://266.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://26600.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://26863.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://271.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://274.rpc.thirdweb.com	failed probe 2026-10-20: stale_head
+https://2748.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://278.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://27827.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://2787.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://279.rpc.thirdweb.com	failed probe 2026-10-20: stale_head
+https://2800.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://28945486.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://2907.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://2911.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://29223.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://29548.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://298.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://3000.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://3001.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://305.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://3068.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_getBlockByNumber, no_head
+https://3073.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://30730.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://30731.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://308.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://3100.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://3102.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://3109.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://31102.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://3125659152.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://3132023.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://320.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://32520.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://3269.rpc.thirdweb.com	failed probe 2026-10-20: stale_head
+https://328527.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://32990.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://33.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://33033.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://333313.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://3334.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://33385.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://333999.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://336.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://336666.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://3400.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://3424.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://35011.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://36.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://3639.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://3699.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://3737.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://38.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://38400.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://3912.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://3946.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://39656.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://3966.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://40.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber
+https://4000003.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://4003.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://4061.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://4078.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://4099.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://411.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://4158.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://416.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://4181.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://41923.rpc.thirdweb.com	failed probe 2026-10-20: stale_head
+https://42000.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://420420418.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://42069.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://42170.rpc.thirdweb.com	failed probe 2026-10-20: stale_head
+https://42262.rpc.thirdweb.com	failed probe 2026-10-20: stale_head
+https://4242.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://4243.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://427.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://43110.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://431140.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://4321.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://4400.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://4444.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://44444.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://4488.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://45000.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://456.rpc.thirdweb.com	failed probe 2026-10-20: stale_head
+https://48.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://484.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://486217935.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://499.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://50005.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://50104.rpc.thirdweb.com	failed probe 2026-10-20: stale_head
+https://5040.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://510.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://5112.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://5112023.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://512.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://5169.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://5177.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://5197.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://52.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://529.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://5315.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://53277.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://5330.rpc.thirdweb.com	failed probe 2026-10-20: requires_key, rpc_error:eth_blockNumber
+https://5333.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://534.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://5424.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://5439.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://55.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://55004.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://55244.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://5555.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://55555.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://55614.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://5566.rpc.thirdweb.com	failed probe 2026-10-20: stale_head
+https://56288.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://571.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://58008.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://59971.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://610.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://61800.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://61916.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://62298.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://624.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://6398.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://65357.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://6623.rpc.thirdweb.com	failed probe 2026-10-20: stale_head
+https://6661.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://666301171999.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://6666665.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://668.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://6688.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://6699.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://6701.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://6779.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://68.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://6805.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://6868.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://686868.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://68770.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://6969.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://696969.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://7.rpc.thirdweb.com	failed probe 2026-10-20: stale_head
+https://7070.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://70700.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://7100.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://7118.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://71402.rpc.thirdweb.com	failed probe 2026-10-20: stale_head
+https://7171.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://721529.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://72992.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://730.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://7300.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://766.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://776877.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://7776.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://77777.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://7869.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://789.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://7923.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://7979.rpc.thirdweb.com	failed probe 2026-10-20: stale_head
+https://8.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://800.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://80008.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://8047.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://8080808.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://8082.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://8087.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://8098.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://8132.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://8134.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://81342.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://8136.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://814.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://818.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://82.rpc.thirdweb.com	failed probe 2026-10-20: stale_head
+https://8227.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://827431.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://831.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://8329.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://8333.rpc.thirdweb.com	failed probe 2026-10-20: stale_head
+https://8338.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://8387.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://841.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://84841.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://855456.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://859.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://8654.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://87.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://8723.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://877.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://8794598.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://881.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://88559.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://88800.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://8881.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://88819.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://8888.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://888882.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://888888.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://8898.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://8899.rpc.thirdweb.com	failed probe 2026-10-20: stale_head
+https://899.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://8995.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber
+https://90.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://9012.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://9025.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://9100.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://912559.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://927.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://9395.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://963.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://972.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://987.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://988207.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://989.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://99.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://9911.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://995.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://9980.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://9981.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://99999.rpc.thirdweb.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://accesschain.org/rpc	refuses scripted clients (challenge)
+https://adiri.tel	failed probe 2026-10-20: stale_head
+https://andromeda.api.liveraven.net/cosmos/base/tendermint/v1beta1/node_info	failed probe 2026-10-20: stale_head
+https://andromeda.rpc.liveraven.net/status	failed probe 2026-10-20: stale_head
+https://api-cloud.coinweb.io/eth-rpc-service/bnb	failed probe 2026-10-20: stale_head
+https://api.carbon.network/cosmos/base/tendermint/v1beta1/node_info	failed probe 2026-10-20: stale_head
+https://api.cnho.io/cosmos/base/tendermint/v1beta1/node_info	refuses scripted clients (challenge)
+https://api.coindcx.com/exchange/ticker	refuses scripted clients (challenge)
+https://api.dexpaprika.com/networks	demands a key or payment although listed keyless
+https://api.dexpaprika.com/networks/ethereum/pools	demands a key or payment although listed keyless
+https://api.dexpaprika.com/search?query=uniswap	demands a key or payment although listed keyless
+https://api.dexpaprika.com/stats	demands a key or payment although listed keyless
+https://api.lux.network	failed probe 2026-10-20: stale_head
+https://api.mainnet.playa3ull.games	failed probe 2026-10-20: stale_head
+https://api.metalblockchain.org/ext/bc/C/rpc	failed probe 2026-10-20: stale_head
+https://api.roninchain.com/rpc	refuses scripted clients (waf)
+https://api.s0.t.hmny.io	failed probe 2026-10-20: stale_head
+https://arbitrum-nova-rpc.publicnode.com	failed probe 2026-10-20: stale_head
+https://arbitrum-sepolia.blockscout.com/api/v2/stats	refuses scripted clients (challenge)
+https://arbitrum.blockscout.com/api/v2/stats	refuses scripted clients (challenge)
+https://archive.mindchain.info	failed probe 2026-10-20: stale_head
+https://auto-evm.chronos.autonomys.xyz/ws	failed probe 2026-10-20: stale_head
+https://base.blockscout.com/api/v2/stats	refuses scripted clients (challenge)
+https://base.blockscout.com/api/v2/stats/charts/market	refuses scripted clients (challenge)
+https://bitbns.com/order/getTickerWithVolume/	refuses scripted clients (challenge)
+https://bitway-mainnet-api.itrocket.net/cosmos/base/tendermint/v1beta1/node_info	failed probe 2026-10-20: stale_head
+https://bitway-mainnet-rpc.itrocket.net/status	failed probe 2026-10-20: stale_head
+https://bitway.rpc.kjnodes.com/status	failed probe 2026-10-20: stale_head
+https://bob.gateway.tenderly.co	failed probe 2026-10-20: dns_error
+https://build.onbeam.com/rpc/testnet	failed probe 2026-10-20: stale_head
+https://c.onical.org	failed probe 2026-10-20: stale_head
+https://celestia.rpc.uquad.org:443/status	dead 2026-10-20: 502 bad gateway
+https://celo-sepolia.gateway.tatum.io	failed probe 2026-10-20: not_json
+https://celo.drpc.org	failed probe 2026-10-20: http_400
+https://centrifuge-parachain.api.onfinality.io/public	failed probe 2026-10-20: stale_head
+https://chain-rpc.arzio.co	failed probe 2026-10-20: stale_head
+https://chain.final-de.fi	failed probe 2026-10-20: stale_head
+https://chain.so/api/v2/get_info/DOGE	dead 2026-10-20: API v2 retired
+https://cloudflare-eth.com	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://cosmos-rest.publicnode.com/cosmos/base/tendermint/v1beta1/node_info	failed probe 2026-10-20: chain_id_mismatch
+https://cronos-zkevm-testnet.drpc.org	failed probe 2026-10-20: stale_head
+https://cronos-zkevm.drpc.org	failed probe 2026-10-20: stale_head
+https://dev-kwala-rpc-node.p2eppl.com	dead 2026-10-20: 503 no healthy upstream
+https://edge-mainnet.g.alchemy.com/public	failed probe 2026-10-20: stale_head
+https://edge.drpc.org	failed probe 2026-10-20: stale_head
+https://emerald.oasis.io	failed probe 2026-10-20: stale_head
+https://eth-api.lido.fi/v1/protocol/steth/apr/last	refuses scripted clients (challenge)
+https://eth-api.lido.fi/v1/protocol/steth/apr/sma	refuses scripted clients (challenge)
+https://eth.drpc.org	refuses scripted clients (challenge)
+https://ethereum-sepolia-public.nodies.app	failed probe 2026-10-20: dns_error
+https://explorer.arc.io/api/v2/stats	refuses scripted clients (challenge)
+https://fullnode-mainnet.bouncebitapi.com	failed probe 2026-10-20: http_403
+https://galleon-testnet.igralabs.com:8545	failed probe 2026-10-20: future_head
+https://gateway.liquify.com/chain/thorchain_api/cosmos/base/tendermint/v1beta1/node_info	failed probe 2026-10-20: stale_head
+https://governors.testnet.redbelly.network	failed probe 2026-10-20: stale_head
+https://gravity-alpha-sepolia.drpc.org	failed probe 2026-10-20: stale_head
+https://gzn-test.linksme.info	failed probe 2026-10-20: stale_head
+https://harmony-0.drpc.org	failed probe 2026-10-20: stale_head
+https://hk.p.bifrost-rpc.liebi.com	refuses scripted clients (waf)
+https://immutable-zkevm-testnet.drpc.org	failed probe 2026-10-20: http_400
+https://immutable.gateway.tenderly.co	failed probe 2026-10-20: dns_error
+https://jasmy-chain-testnet.alt.technology	failed probe 2026-10-20: stale_head
+https://json-rpc.base-sepolia.crynux.io	failed probe 2026-10-20: stale_head
+https://klaytn.drpc.org	failed probe 2026-10-20: http_400
+https://kopi-rpc.bluestake.net:443/status	failed probe 2026-10-20: stale_head
+https://kublayer2.testnet.kubchain.io	failed probe 2026-10-20: stale_head
+https://l7c.ai/rpc	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://lb.routeme.sh/rpc/evm/1001	failed probe 2026-10-20: rate_limited
+https://lb.routeme.sh/rpc/evm/112	failed probe 2026-10-20: rate_limited
+https://lb.routeme.sh/rpc/evm/13473	failed probe 2026-10-20: rate_limited
+https://lb.routeme.sh/rpc/evm/1350216234	failed probe 2026-10-20: rate_limited
+https://lb.routeme.sh/rpc/evm/1482601649	failed probe 2026-10-20: rate_limited
+https://lb.routeme.sh/rpc/evm/15	failed probe 2026-10-20: rate_limited
+https://lb.routeme.sh/rpc/evm/2043	failed probe 2026-10-20: rate_limited
+https://lb.routeme.sh/rpc/evm/2632500	failed probe 2026-10-20: rate_limited
+https://lb.routeme.sh/rpc/evm/297	failed probe 2026-10-20: rate_limited
+https://lb.routeme.sh/rpc/evm/314159	failed probe 2026-10-20: rate_limited
+https://lb.routeme.sh/rpc/evm/42161	failed probe 2026-10-20: rate_limited
+https://lb.routeme.sh/rpc/evm/42261	failed probe 2026-10-20: rate_limited
+https://lb.routeme.sh/rpc/evm/49321	failed probe 2026-10-20: rate_limited
+https://lb.routeme.sh/rpc/evm/545	failed probe 2026-10-20: rate_limited
+https://lb.routeme.sh/rpc/evm/66	failed probe 2026-10-20: rate_limited
+https://lb.routeme.sh/rpc/evm/71	failed probe 2026-10-20: rate_limited
+https://lb.routeme.sh/rpc/evm/74	failed probe 2026-10-20: rate_limited
+https://lb.routeme.sh/rpc/evm/8844	failed probe 2026-10-20: rate_limited
+https://lb.routeme.sh/rpc/evm/8882	failed probe 2026-10-20: rate_limited
+https://lb.routeme.sh/rpc/evm/988	failed probe 2026-10-20: rate_limited
+https://lisk-sepolia.drpc.org	failed probe 2026-10-20: stale_head
+https://litermark.org/rpc	failed probe 2026-10-20: stale_head
+https://main.doschain.com	failed probe 2026-10-20: stale_head
+https://mainnet-rpc.oortech.com	failed probe 2026-10-20: stale_head
+https://mainnet.datagram.network/rpc	failed probe 2026-10-20: stale_head
+https://mainnet.elyon.network/rpc	refuses scripted clients (challenge)
+https://mainnetrpc.num.network	failed probe 2026-10-20: stale_head
+https://mantle-lcd.dungeon.games/cosmos/base/tendermint/v1beta1/node_info	failed probe 2026-10-20: stale_head
+https://market.api3.org/api/dapis	dead 2026-10-20: returns an HTML page, not an API
+https://metall2-testnet.drpc.org	failed probe 2026-10-20: http_400
+https://metis-sepolia.gateway.tenderly.co	failed probe 2026-10-20: dns_error
+https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD,EUR	demands a key or payment although listed keyless
+https://moonbeam-alpha.api.onfinality.io/public	failed probe 2026-10-20: stale_head
+https://moonbeam.api.pocket.network	failed probe 2026-10-20: stale_head
+https://moonbeam.drpc.org	failed probe 2026-10-20: stale_head
+https://moonriver.api.pocket.network	failed probe 2026-10-20: stale_head
+https://moonriver.drpc.org	failed probe 2026-10-20: stale_head
+https://nebula-chain.com/rpc	dead 2026-10-20: 502 bad gateway
+https://node-api.uptn.io/v1/ext/rpc	failed probe 2026-10-20: stale_head
+https://nova.arbitrum.io/rpc	failed probe 2026-10-20: stale_head
+https://one.valve.city/rpc/vk_demo/evm/369	demands a key or payment although listed keyless
+https://one.valve.city/rpc/vk_demo/evm/943	demands a key or payment although listed keyless
+https://open-campus-codex-sepolia.drpc.org	failed probe 2026-10-20: stale_head
+https://orai-api.polkachu.com/cosmos/base/tendermint/v1beta1/node_info	failed probe 2026-10-20: stale_head
+https://orai-rpc.polkachu.com:443/status	failed probe 2026-10-20: stale_head, catching_up
+https://orderly.drpc.org	failed probe 2026-10-20: http_400
+https://plume.drpc.org	failed probe 2026-10-20: http_400
+https://poly-zkevm.api.pocket.network	failed probe 2026-10-20: stale_head
+https://polygon-amoy.gateway.tenderly.co	failed probe 2026-10-20: dns_error
+https://polygon-zkevm-cardona.drpc.org	failed probe 2026-10-20: stale_head
+https://polygon-zkevm.drpc.org	failed probe 2026-10-20: stale_head
+https://polygon.blockscout.com/api/v2/stats	refuses scripted clients (challenge)
+https://polygon.blockscout.com/api/v2/stats/charts/market	refuses scripted clients (challenge)
+https://polytopia.org:8545	failed probe 2026-10-20: stale_head
+https://proxy.wegochain.io	failed probe 2026-10-20: stale_head
+https://public-rpc.anime.xyz	failed probe 2026-10-20: stale_head
+https://public.1rpc.io/glmr	failed probe 2026-10-20: dns_error
+https://public.1rpc.io/manta	failed probe 2026-10-20: dns_error
+https://public.1rpc.io/polygon/zkevm	failed probe 2026-10-20: dns_error
+https://rest.core.persistence.one/cosmos/base/tendermint/v1beta1/node_info	refuses scripted clients (waf)
+https://robinhoodchain.blockscout.com/api/v2/stats	refuses scripted clients (challenge)
+https://ronin-saigon.gateway.tatum.io	failed probe 2026-10-20: connect_error
+https://ronin.gateway.tenderly.co	failed probe 2026-10-20: dns_error
+https://rpc-archway.luckyfriday.io/status	failed probe 2026-10-20: stale_head, catching_up
+https://rpc-dev.wirexpaychain.com	failed probe 2026-10-20: stale_head
+https://rpc-gw-1.vyoscan.com/ext/bc/2RyzsmGypNQZPby1miwMMV8spTvhgd9qd2peNRzU1mErUQqSSw/rpc	failed probe 2026-10-20: stale_head
+https://rpc-gw-1.vyoscan.com/ext/bc/2t51dXsuxUvd9teY9TKEJmgxmxMk3CRF88UYTA4HQgjeYZqzSX/rpc	failed probe 2026-10-20: stale_head
+https://rpc-gw-2.vyoscan.com/ext/bc/2RyzsmGypNQZPby1miwMMV8spTvhgd9qd2peNRzU1mErUQqSSw/rpc	failed probe 2026-10-20: stale_head
+https://rpc-gw-2.vyoscan.com/ext/bc/2t51dXsuxUvd9teY9TKEJmgxmxMk3CRF88UYTA4HQgjeYZqzSX/rpc	failed probe 2026-10-20: stale_head
+https://rpc-l1.inan.in.th	failed probe 2026-10-20: stale_head
+https://rpc-mainnet-dcomm-rl.cogitus.io/ext/bc/2QJ6d1ue6UyXNXrMdGnELFc2AjMdMqs8YbX3sT3k4Nin2RcWSm/rpc	failed probe 2026-10-20: stale_head
+https://rpc-mainnet.campnetwork.xyz	failed probe 2026-10-20: stale_head
+https://rpc-opal.unique.network	failed probe 2026-10-20: stale_head
+https://rpc-os.avicoin.org	failed probe 2026-10-20: stale_head
+https://rpc-rinia.firestation.io	refuses scripted clients (challenge)
+https://rpc-sepolia.gravity.xyz	failed probe 2026-10-20: stale_head
+https://rpc-testnet-1.cratd2csmartchain.io	failed probe 2026-10-20: stale_head
+https://rpc-testnet-2.cratd2csmartchain.io	failed probe 2026-10-20: stale_head
+https://rpc-testnet.6dochain.com	failed probe 2026-10-20: stale_head
+https://rpc-testnet.bitkubchain.io	refuses scripted clients (challenge)
+https://rpc-testnet.carrchain.io	failed probe 2026-10-20: stale_head
+https://rpc-testnet.hausserver.xyz	failed probe 2026-10-20: stale_head
+https://rpc-testnet.hydrachain.org	failed probe 2026-10-20: stale_head
+https://rpc-testnet.potos.hk	failed probe 2026-10-20: stale_head
+https://rpc.aah.name	refuses scripted clients (challenge)
+https://rpc.ankr.com/chiliz	demands a key or payment although listed keyless
+https://rpc.ankr.com/core	demands a key or payment although listed keyless
+https://rpc.ankr.com/eth	demands a key or payment although listed keyless
+https://rpc.ankr.com/filecoin_testnet	demands a key or payment although listed keyless
+https://rpc.ankr.com/http/tac_cosmos/cosmos/base/tendermint/v1beta1/node_info	demands a key or payment although listed keyless
+https://rpc.ankr.com/matchain_mainnet	demands a key or payment although listed keyless
+https://rpc.ankr.com/multichain	demands a key or payment although listed keyless
+https://rpc.ankr.com/somnia_mainnet	demands a key or payment although listed keyless
+https://rpc.ankr.com/story_aeneid_testnet	demands a key or payment although listed keyless
+https://rpc.ankr.com/story_mainnet	demands a key or payment although listed keyless
+https://rpc.ankr.com/xdc	demands a key or payment although listed keyless
+https://rpc.ankr.com/xdc_testnet	demands a key or payment although listed keyless
+https://rpc.bdagexplorer.com	refuses scripted clients (challenge)
+https://rpc.bie.ai	failed probe 2026-10-20: stale_head
+https://rpc.bitkubchain.io	refuses scripted clients (challenge)
+https://rpc.bitvault.club	refuses scripted clients (challenge)
+https://rpc.bpxchain.cc	failed probe 2026-10-20: stale_head
+https://rpc.btzchain.org	failed probe 2026-10-20: stale_head
+https://rpc.cardona.zkevm-rpc.com	failed probe 2026-10-20: stale_head
+https://rpc.cmxofficial.com	dead 2026-10-20: 502 bad gateway
+https://rpc.cnho.io/status	refuses scripted clients (challenge)
+https://rpc.denergytestnet.com	failed probe 2026-10-20: stale_head
+https://rpc.diamond.zenrocklabs.io/status	failed probe 2026-10-20: stale_head, catching_up
+https://rpc.dome.cloud	failed probe 2026-10-20: stale_head
+https://rpc.eiob.xyz	failed probe 2026-10-20: stale_head
+https://rpc.gomchain.com	failed probe 2026-10-20: stale_head
+https://rpc.gut.network	failed probe 2026-10-20: stale_head
+https://rpc.igralabs.com:8545	failed probe 2026-10-20: stale_head
+https://rpc.itaninetworkchain.com/jsonrpc	failed probe 2026-10-20: stale_head
+https://rpc.jfinpos.com	failed probe 2026-10-20: stale_head
+https://rpc.lrxmining.com	refuses scripted clients (challenge)
+https://rpc.meter.io	failed probe 2026-10-20: stale_head
+https://rpc.miraclechain.dev/http	failed probe 2026-10-20: stale_head
+https://rpc.nodeflare.app/base/public	refuses scripted clients (challenge)
+https://rpc.nodeflare.app/bnb/public	refuses scripted clients (challenge)
+https://rpc.nodeflare.app/robinhood/public	refuses scripted clients (challenge)
+https://rpc.nodeflare.app/unichain/public	refuses scripted clients (challenge)
+https://rpc.nodeflare.app/zircuit/public	refuses scripted clients (challenge)
+https://rpc.noion.xyz/eth	dead 2026-10-20: 521 origin down
+https://rpc.omachain.org	failed probe 2026-10-20: stale_head
+https://rpc.open-campus-codex.gelato.digital	failed probe 2026-10-20: stale_head
+https://rpc.pionescan.com	failed probe 2026-10-20: stale_head
+https://rpc.pulseheartbeat.com	refuses scripted clients (challenge)
+https://rpc.raptorchain.io/web3	failed probe 2026-10-20: stale_head
+https://rpc.sepolia.ethpandaops.io	failed probe 2026-10-20: dns_error
+https://rpc.shib.club	failed probe 2026-10-20: stale_head
+https://rpc.sin.hydration.cloud	failed probe 2026-10-20: stale_head
+https://rpc.sophon.xyz	failed probe 2026-10-20: stale_head
+https://rpc.syrax.global	failed probe 2026-10-20: stale_head
+https://rpc.syscoin.org	failed probe 2026-10-20: stale_head
+https://rpc.testnet.ethstorage.io:9546	failed probe 2026-10-20: rpc_error:eth_blockNumber, rpc_error:eth_getBlockByNumber
+https://rpc.testnet.mawari.net/http	failed probe 2026-10-20: stale_head
+https://rpc.testnet.watr.org/ext/bc/2ZZiR6T2sJjebQguABb53rRpzme8zfK4R9zt5vMM8MX1oUm3g/rpc	failed probe 2026-10-20: stale_head
+https://rpc.thaichain.org	failed probe 2026-10-20: stale_head
+https://rpc.tpix.online	refuses scripted clients (challenge)
+https://rpc.trex.xyz	failed probe 2026-10-20: stale_head
+https://rpc.watr.org/ext/bc/EypLFUSzC2wdbFJovYS3Af1E7ch1DJf7KxKoGR5QFPErxQkG1/rpc	failed probe 2026-10-20: stale_head
+https://rpc.xinfin.network	refuses scripted clients (challenge)
+https://rpc.zkfair.io	failed probe 2026-10-20: stale_head
+https://rpc1.qkiscan.io	failed probe 2026-10-20: timeout
+https://rpc1.xinfin.network	refuses scripted clients (challenge)
+https://rpc2.advanceblockchain.io	failed probe 2026-10-20: stale_head
+https://rpc3.qkirpc.org	refuses scripted clients (challenge)
+https://rpcrichechain.com	failed probe 2026-10-20: stale_head
+https://sauron-rpc.infra.pocket.network:443/status	failed probe 2026-10-20: stale_head
+https://seednode.mindchain.info	failed probe 2026-10-20: stale_head
+https://sei.drpc.org	failed probe 2026-10-20: http_400
+https://shinzo-testnet.web3cdn.rest	failed probe 2026-10-20: stale_head
+https://source-api.bluestake.net/cosmos/base/tendermint/v1beta1/node_info	failed probe 2026-10-20: stale_head
+https://source-rpc.bluestake.net:443/status	failed probe 2026-10-20: stale_head
+https://starknet-mainnet.public.blastapi.io	refuses scripted clients (waf)
+https://story-evm-rpc.krews.xyz	failed probe 2026-10-20: stale_head
+https://sunrise-rpc.krews.xyz/status	failed probe 2026-10-20: stale_head
+https://swell-testnet.drpc.org	failed probe 2026-10-20: stale_head
+https://syscoin-evm.publicnode.com	failed probe 2026-10-20: stale_head
+https://syscoin-tanenbaum-evm.publicnode.com	failed probe 2026-10-20: stale_head
+https://tahoe.metalblockchain.org/ext/bc/C/rpc	failed probe 2026-10-20: stale_head
+https://teritori-api.bluestake.net/cosmos/base/tendermint/v1beta1/node_info	failed probe 2026-10-20: stale_head
+https://teritori-rpc.bluestake.net:443/status	failed probe 2026-10-20: stale_head
+https://test.doschain.com	failed probe 2026-10-20: stale_head
+https://testnet-rpc.ivarex.com	failed probe 2026-10-20: stale_head
+https://testnet-rpc.zeuschainscan.io	failed probe 2026-10-20: stale_head
+https://testnet.rpc.intuition.systems	failed probe 2026-10-20: stale_head
+https://testnet1.helioschainlabs.org	dead 2026-10-20: 502 bad gateway
+https://testnetrpc.jmdt.io	failed probe 2026-10-20: stale_head
+https://testnetrpc.trex.xyz	failed probe 2026-10-20: stale_head
+https://testrpc.pex.li	failed probe 2026-10-20: stale_head
+https://tranched-mainnet.calderachain.xyz/http	failed probe 2026-10-20: stale_head
+https://tron.drpc.org	failed probe 2026-10-20: http_500
+https://ultron-dev.io	failed probe 2026-10-20: stale_head
+https://worldmobilechain-mainnet.g.alchemy.com/public	failed probe 2026-10-20: stale_head
+https://wq-api.lido.fi/v2/request-time/calculate?amount=100	refuses scripted clients (challenge)
+https://zkevm-rpc.com	failed probe 2026-10-20: stale_head

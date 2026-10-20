@@ -2,9 +2,9 @@
 
 Endpoints that need a free signup or key (or payment, on a 402). The example call shows the shape; replace `YOUR_KEY` with your own.
 
-Total: 2,740. [Back to the main README](../README.md)
+Total: 2,735. [Back to the main README](../README.md)
 
-## APIs (2,727)
+## APIs (2,722)
 
 - [Animals](apis/animals.md) (13)
 - [Anime & Manga](apis/anime-and-manga.md) (5)
@@ -12,7 +12,7 @@ Total: 2,740. [Back to the main README](../README.md)
 - [Books & Literature](apis/books-and-literature.md) (14)
 - [Business & Companies](apis/business-and-companies.md) (114)
 - [Calendar & Holidays](apis/calendar-and-holidays.md) (24)
-- [Cryptocurrency & Blockchain](apis/cryptocurrency-and-blockchain.md) (151)
+- [Cryptocurrency & Blockchain](apis/cryptocurrency-and-blockchain.md) (146)
 - [Currency & Exchange](apis/currency-and-exchange.md) (40)
 - [Data Validation & Utilities](apis/data-validation-and-utilities.md) (149)
 - [Developer Tools](apis/developer-tools.md) (336)

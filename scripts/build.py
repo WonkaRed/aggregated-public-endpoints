@@ -36,6 +36,7 @@ FILE_EXT = {"png", "jpg", "jpeg", "gif", "svg", "pst", "css", "js"}
 PATH_TOKEN = re.compile(r"epat_\w+|(?<=nodereal\.io/v1/)[0-9a-f]{32}|(?<=dwellir\.com/)[0-9a-f-]{36}")
 # Rows that do not belong in a public catalogue: unresolvable hosts, adult content.
 EXCLUDE_NAMES = {"Lustpress API", "Danbooru"}
+KNOWN_BAD = {l.split("\t")[0] for l in (ROOT / "scripts/known-bad.tsv").read_text().splitlines() if l and l[0] != "#"}
 LOCAL_HOST = re.compile(r"^https?://(?:[\w-]+\.local\b|localhost\b|127(?:\.\d+){3}|10(?:\.\d+){3}|192\.168\.\d+\.\d+)")
 PRIVATE_KEY = re.compile(r"-----BEGIN [A-Z ]*PRIVATE KEY-----.*?(?:-----END [A-Z ]*PRIVATE KEY-----|$)", re.S)
 
@@ -272,8 +273,8 @@ def main(path):
     atlas = json.loads(Path(path).read_text(encoding="utf-8"))
     assert set(atlas) == {"date", *SECTIONS}, "unexpected atlas sections"
     rows = [{**r, "section": s} for s in SECTIONS for r in atlas[s]
-            if r["n"] not in EXCLUDE_NAMES and not LOCAL_HOST.match(r.get("e") or r["u"])]
-    print(f"excluded {sum(map(len, (atlas[s] for s in SECTIONS))) - len(rows)} rows (adult content, local hosts)")
+            if r["n"] not in EXCLUDE_NAMES and r.get("e") not in KNOWN_BAD and not LOCAL_HOST.match(r.get("e") or r["u"])]
+    print(f"excluded {sum(map(len, (atlas[s] for s in SECTIONS))) - len(rows)} rows (adult content, local hosts, known-bad hosts)")
     counts = {"dropped": Counter(), "conflicts": 0, "to_key": 0}
     kept = dedupe(rows, counts)
     hits = []

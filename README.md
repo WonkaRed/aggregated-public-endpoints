@@ -1,18 +1,18 @@
 # Aggregated Public Endpoints
 
-31,609 free public endpoints, deduplicated and sorted by what you need to use them: 28,404 work without
-a signup, 2,740 need a free key or signup, and 465 did not answer when checked (kept as data only).
+30,960 free public endpoints, deduplicated and sorted by what you need to use them: 27,761 work without
+a signup, 2,735 need a free key or signup, and 464 did not answer when checked (kept as data only).
 
 ## Counts
 
 | Section | Rows in | Duplicates dropped | Open | Signup | Unreachable |
 |---|---:|---:|---:|---:|---:|
-| apis | 25,895 | 94 | 22,609 | 2,727 | 465 |
-| rpc | 2,153 | 1 | 2,147 | 5 | 0 |
+| apis | 25,870 | 89 | 22,595 | 2,722 | 464 |
+| rpc | 1,524 | 1 | 1,518 | 5 | 0 |
 | portals | 449 | 1 | 448 | 0 | 0 |
 | feeds | 2,346 | 2 | 2,337 | 7 | 0 |
 | cloud | 877 | 13 | 863 | 1 | 0 |
-| **Total** | 31,720 | 111 | 28,404 | 2,740 | 465 |
+| **Total** | 31,066 | 106 | 27,761 | 2,735 | 464 |
 
 ## Contents
 
