@@ -1,18 +1,18 @@
 # Aggregated Public Endpoints
 
-30,960 free public endpoints, deduplicated and sorted by what you need to use them: 27,761 work without
-a signup, 2,735 need a free key or signup, and 464 did not answer when checked (kept as data only).
+31,509 free public endpoints, deduplicated and sorted by what you need to use them: 28,304 work without
+a signup, 2,740 need a free key or signup, and 465 did not answer when checked (kept as data only).
 
 ## Counts
 
 | Section | Rows in | Duplicates dropped | Open | Signup | Unreachable |
 |---|---:|---:|---:|---:|---:|
-| apis | 25,870 | 89 | 22,595 | 2,722 | 464 |
-| rpc | 1,524 | 1 | 1,518 | 5 | 0 |
-| portals | 449 | 1 | 448 | 0 | 0 |
-| feeds | 2,346 | 2 | 2,337 | 7 | 0 |
+| apis | 25,895 | 94 | 22,542 | 2,727 | 465 |
+| rpc | 2,153 | 1 | 2,118 | 5 | 0 |
+| portals | 449 | 1 | 445 | 0 | 0 |
+| feeds | 2,346 | 2 | 2,336 | 7 | 0 |
 | cloud | 877 | 13 | 863 | 1 | 0 |
-| **Total** | 31,066 | 106 | 27,761 | 2,735 | 464 |
+| **Total** | 31,720 | 111 | 28,304 | 2,740 | 465 |
 
 ## Contents
 
@@ -34,6 +34,18 @@ status the example call returned. A row marked "docs only" has no example call a
   usually means the checker was blocked.
 - 429: rate limited during the check.
 - 0: no answer at all (unreachable).
+
+## Re-verification (2026-10-20)
+
+Every open (no-signup) endpoint was re-called live: up to 3 attempts with backoff, then every endpoint still
+failing was independently re-checked with curl, a browser user agent and a longer timeout, and any RPC row that
+only 404'd on a plain GET got one more retry as a proper JSON-RPC POST (standard JSON-RPC nodes only implement
+POST). 100 endpoints never answered correctly across every attempt and were dropped from the open set: 81 dead
+and 19 now needing a key or payment (401/402). A plain 403 on a keyless row was kept either way, per this repo's
+own convention that it usually means the checker got blocked, not that a key is now required. Dropped rows and
+their reason are in [data/removed_open.jsonl](data/removed_open.jsonl); re-run with
+`python3 scripts/verify_open.py` going forward. These 100 are not counted in the "Duplicates dropped" column
+above, only subtracted from Open.
 
 ## Rebuild
 

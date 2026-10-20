@@ -4,7 +4,6 @@
 
 | Category | Type | Name | Description | Example call | Limits | Region | Auth | Status |
 |---|---|---|---|---|---|---|---|---|
-| Transportation \& Travel | gbfs | [Veo Syracuse GBFS (Syracuse, NY)](https://www.veoride.com) | GBFS bikeshare/micromobility feed for Veo Syracuse: stations, status and free bikes in real time | `https://cluster-prod.veoride.com/api/shares/name/syr/gbfs` | none stated | US | none | 200 |
 | Transportation \& Travel | gbfs | [Veo Texas A\&M University GBFS (College Station, TX)](https://www.veoride.com) | GBFS bikeshare/micromobility feed for Veo Texas A\&M University: stations, status and free bikes in real time | `https://cluster-prod.veoride.com/api/shares/name/tam/gbfs` | none stated | US | none | 200 |
 | Transportation \& Travel | gbfs | [Veo Toledo GBFS (Toledo, OH)](https://www.veoride.com) | GBFS bikeshare/micromobility feed for Veo Toledo: stations, status and free bikes in real time | `https://cluster-prod.veoride.com/api/shares/name/tol/gbfs` | none stated | US | none | 200 |
 | Transportation \& Travel | gbfs | [Veo University of Illinois, Urbana-Champaign GBFS (Urbana, IL)](https://www.veoride.com) | GBFS bikeshare/micromobility feed for Veo University of Illinois, Urbana-Champaign: stations, status and free bikes in real time | `https://cluster-prod.veoride.com/api/shares/name/iuc/gbfs` | none stated | US | none | 200 |
