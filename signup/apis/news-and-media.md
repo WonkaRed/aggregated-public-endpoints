@@ -1,0 +1,65 @@
+# News & Media APIs
+
+[Back to the signup index](../README.md)
+
+| Name | Description | Example call | Limits | Region | Auth | Status |
+|---|---|---|---|---|---|---|
+| [Aggregators API Service](https://api.zeno.fm) | Aggregators API | `https://api.zeno.fm/api/v2/podcasts/categories` |  | global | free key | 401 |
+| [API Berita Indonesia](https://github.com/renomureza/api-berita-indonesia) | Latest headlines from Indonesian news outlets (RSS aggregated) | `https://api-berita-indonesia.vercel.app/cnn/terbaru` |  | ID | payment required | 402 |
+| [APITube News API](https://apitube.io/) | Real-time and historical news from 300,000+ sources in 177 countries and 59 languages, enriched with sentiment, entities and topics, with 65+ search filters | docs only |  | global | free key | 200 |
+| [ART19 Content API Documentation](https://art19.com) | The ART19 Content API conforms to the JSON:API specification. API requests MUST use the HTTP Accept header: Accept: application/vnd.api+json API requests MUST b | `https://art19.com/classification_inclusions` |  | global | free key | 200 |
+| [Associated Press](https://developer.ap.org/) | Search for news and metadata from Associated Press | docs only |  | global | free key | 200 |
+| [BBC iPlayer Business Layer](http://smethur.st/posts/176135860) | The definitive iPlayer API. | `https://ibl.api.bbci.co.uk/ibl/v1/categories` |  | global | free key | 200 |
+| [Bungie.Net API](https://github.com/Bungie-net/api/wiki/OAuth-Documentation) | These endpoints constitute the functionality exposed by Bungie.net, both for more traditional website functionality and for connectivity to Bungie video games a | `https://www.bungie.net/Platform/App/FirstParty/` |  | global | free key | 200 |
+| [Channel 4 API](http://developer.channel4.com/docs/read/ProgrammesAPIGuide) | This is the place to come for all the technical details you need to power your applications with Channel 4's deep programmes data. | `http://channel4.com/pmlsd/4od/episode-list/popular.atom` |  | global | free key | 403 |
+| [CryptoPanic (key)](https://cryptopanic.com/developers/api/) | Crypto news aggregator; free key | `https://cryptopanic.com/api/v1/posts/` |  | global | free key | 403 |
+| [Currents](https://currentsapi.services/) | Real-time and historical global news with multilingual support | docs only |  | global | free key | 200 |
+| [Currents API](https://currentsapi.services/en/docs/) | News | `https://api.currentsapi.services/v1/latest-news` | 600/day | global | free key | 200 |
+| [daily.dev](https://docs.daily.dev/public-api/) | Developer news feeds, posts, bookmarks, tags and search from daily.dev | docs only |  | global | free key | 200 |
+| [Deep Art Effects](https://api.deeparteffects.com/v1) | Deep Art Effects | `https://api.deeparteffects.com/v1/noauth/result` |  | global | free key | 403 |
+| [Free News API](https://freenewsapi.io) | Search and retrieve news articles with full-text search, filters and cursor pagination | docs only |  | global | free key | 200 |
+| [Giphy API](https://developers.giphy.com/docs/) | Giphy API | `https://api.giphy.com/v1/gifs` |  | global | free key | 200 |
+| [GNews](https://gnews.io/docs/v4) | News search | `https://gnews.io/api/v4/top-headlines?token=YOUR_KEY` | 100 req/day free | global | free key | 400 |
+| [Google Fact Check Tools API](https://developers.google.com/fact-check/tools/api/reference/rest) | Search ClaimReview fact-checks from publishers worldwide (the Fact Check Explorer dataset) by text query, language, age and publisher site; returns claim, claimant, rating and review URL. | `https://factchecktools.googleapis.com/v1alpha1/claims:search?query=vaccine&languageCode=en&key=YOUR_KEY` | Google Cloud API key quota | global | free key | 400 |
+| [GridNews](https://gridnews.io) | Market news, press releases, and sentiment analysis tagged by ticker symbol | docs only |  | global | free key | 307 |
+| [HackerNews Node](https://github.com/EdixonAlberto/api-hackernews-node) | Api to get related articles about Node.js in Hacker News | docs only |  | global | free key | 200 |
+| [HasData: Structured Web Data APIs](https://hasdata.com) | Real-time Google News, SERP, and Web Scraping APIs. Extract structured public data from any news outlet or search engine at scale without blocks | docs only |  | global | free key | 200 |
+| [Kakao Daum Web Search](https://developers.kakao.com/docs/latest/ko/daum-search/dev-guide) | Daum web/blog/cafe/video/image search | `https://dapi.kakao.com/v2/search/web?query=kakao` |  | KR | free key | 401 |
+| [MarketAux](https://www.marketaux.com/) | Live stock market news with tagged tickers + sentiment and stats JSON API | docs only |  | global | free key | 200 |
+| [MediaStack](https://mediastack.com/documentation) | News | `http://api.mediastack.com/v1/news` | 100/month | global | free key | 301 |
+| [Medium API](https://github.com/Medium/medium-api-docs) | Medium API helps you to quickly extract data from Medium's Website (https://medium.com). You can gather data related to users, publications, articles (including | `https://medium2.p.rapidapi.com/` |  | global | free key | 200 |
+| [Musixmatch API](https://developer.musixmatch.com/) | Musixmatch lyrics API is a robust service that permits you to search and retrieve lyrics in the simplest possible way. It just works. Include millions of licens | `https://api.musixmatch.com/ws/1.1/artist.search` |  | global | free key | 200 |
+| [Naver Search API](https://developers.naver.com/docs/serviceapi/search/blog/blog.md) | Naver blog/news/book/shop/image search (Client ID+Secret headers) | `https://openapi.naver.com/v1/search/blog.json?query=coffee` | 25k req/day | KR | free key | 401 |
+| [New York Times](https://developer.nytimes.com/) | The New York Times Developer Network | docs only |  | global | free key | 200 |
+| [News](https://newsapi.org/) | Headlines currently published on a range of news sources and blogs | docs only |  | global | free key | 200 |
+| [NewsAgent Data](https://newsagentdata.com/) | Russian \& English news with urgency scoring, political-lean \& event clustering | docs only |  | global | free key | 200 |
+| [NewsAPI](https://newsapi.org/docs) | News headlines | `https://newsapi.org/v2/top-headlines?country=us` | 100/day | global | free key | 200 |
+| [NewsAPI.ai](https://www.newsapi.ai/documentation) | News API access to real-time and archive news content | docs only |  | global | free key | 200 |
+| [NewsData](https://newsdata.io/docs) | News data API for live-breaking news and headlines from reputed news sources | docs only |  | global | free key | 200 |
+| [NewsData.io](https://newsdata.io/documentation) | News | `https://newsdata.io/api/1/latest` | 200/day | global | free key | 200 |
+| [NewsDataHub](https://newsdatahub.com) | NewsDataHub provides a production-ready REST API delivering near-real-time global news data at scale | docs only |  | global | free key | 200 |
+| [Newsflash](https://newsflash.sh/docs) | Deduplicated news events from 260+ sources with corroboration/confidence scores for AI agents | docs only |  | global | free key | 200 |
+| [NewsMesh](https://newsmesh.co/docs) | Premium news data from thousands of sources | docs only |  | global | free key | 200 |
+| [NewsX](https://rapidapi.com/machaao-inc-machaao-inc-default/api/newsx/) | Get or Search Latest Breaking News with ML Powered Summaries 🤖 | docs only |  | global | free key | 200 |
+| [NYT APIs](https://developer.nytimes.com/apis) | NYT articles, top stories | `https://api.nytimes.com/svc/topstories/v2/home.json` | 500/day | US | free key | 200 |
+| [NYT Article Search API](https://developer.nytimes.com/docs/articlesearch-product/1/overview) | Search New York Times articles back to 1851 by keyword, date range, section and filter query; returns headline, abstract, byline, keywords and URLs (10 per page). Separate product from the NYT Top Stories row already li… | `https://api.nytimes.com/svc/search/v2/articlesearch.json?q=election&api-key=YOUR_KEY` | 5 req/min, 500 req/day per key (shared across NYT APIs) | US | free key | 401 |
+| [NYT Books API](https://developer.nytimes.com/docs/books-product/1/overview) | New York Times Best Sellers lists (50+ weekly/monthly lists, current and historical), list names, ranking history and book reviews, with ISBNs, publisher and weeks-on-list. | `https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json?api-key=YOUR_KEY` | 5 req/min, 500 req/day per key | US | free key | 401 |
+| [NYT Most Popular API](https://developer.nytimes.com/docs/most-popular-product/1/overview) | Most viewed, most emailed and most shared New York Times articles over the last 1, 7 or 30 days. | `https://api.nytimes.com/svc/mostpopular/v2/viewed/7.json?api-key=YOUR_KEY` | 5 req/min, 500 req/day per key | US | free key | 401 |
+| [NYT Times Newswire API](https://developer.nytimes.com/docs/timeswire-product/1/overview) | Real-time feed of articles as they are published on NYTimes.com, filterable by source and section. | `https://api.nytimes.com/svc/news/v3/content/all/all.json?api-key=YOUR_KEY` | 5 req/min, 500 req/day per key | US | free key | 401 |
+| [Scoopkit](https://scoopkit.dev) | AI-industry news deduplicated into structured events with a versioned category taxonomy | docs only |  | global | free key | 200 |
+| [SoundCloud Public API Specification](https://github.com/soundcloud/api) | SoundCloud Public API Specification | `https://api.soundcloud.com/connect` |  | global | free key | 200 |
+| [Spinitron v2 API](https://spinitron.com/api) | Notes Tutorial demo using this API is at https://spinitron.com/v2-api-demo/. For web integration using iframes and/or JavaScript instead of an API, see https:/ | `https://spinitron.com/api/personas` |  | global | free key | 401 |
+| [SRG SSR Public API](https://developer.srgssr.ch/api-catalog) | Swiss public broadcaster developer portal: SRF Weather forecasts for 100k Swiss locations, SRG SSR archives metadata (SRF/RTS/RSI/RTR/SWI), RTS archives, EPG for TV and radio, audio/video metadata and Swiss popular-vote… | docs only | non-commercial use; free consumer key/secret (client-credentials token) | CH | free key | 200 |
+| [The Guardian](http://open-platform.theguardian.com/) | Access all the content the Guardian creates, categorised by tags and section | docs only |  | global | free key | 200 |
+| [The Guardian Open Platform](https://open-platform.theguardian.com/documentation/) | Guardian articles | `https://content.guardianapis.com/search?q=debate&api-key=test` | test key works | global | free key | 401 |
+| [The Old Reader](https://github.com/theoldreader/api) | RSS reader | docs only |  | global | free key | 200 |
+| [TheNews](https://www.thenewsapi.com/) | Aggregated headlines, top story and live news JSON API | docs only |  | global | free key | 200 |
+| [TheNewsAPI](https://www.thenewsapi.com/documentation) | News | `https://api.thenewsapi.com/v1/news/top` | 100/day | global | free key | 200 |
+| [Trove](https://trove.nla.gov.au/about/create-something/using-api) | Search through the National Library of Australia collection of 1000s of digitised newspapers | docs only |  | global | free key | 200 |
+| [TV API](https://tv.api.pressassociation.io/v2) | Welcome to the API Reference Docs page for the Press Association TV API (v2). | `https://tv.api.pressassociation.io/v2/asset` |  | global | free key | 403 |
+| [TVmaze user API](http://www.tvmaze.com) | Access to the user API is only possible for users with a premium account. A user can only access their own user data. Authentication uses HTTP Basic. Use the TV | `https://api.tvmaze.com/v1/auth/validate` |  | global | free key | 200 |
+| [Webz.io News API](https://webz.io/) | Webz.io News APIs provide global news data for search, monitoring, analytics, and AI applications, with powerful filters and natural-language search | docs only |  | global | free key | 200 |
+| [Wikimedia](http://mediawiki.org/wiki/REST_API) | This API provides cacheable and straightforward access to Wikimedia content and data, in machine-readable formats. Global Rules - Limit your clients to no more | `https://wikimedia.org/api/rest_v1/feed/availability` |  | global | free key | 200 |
+| [World News](https://worldnewsapi.com) | Search through millions of semantically tagged worldwide news | docs only |  | global | free key | 200 |
+| [Wowza Streaming Cloud REST API Reference Documentation](https://www.wowza.com/docs/how-to-broadcast-a-live-stream-by-using-the-wowza-streaming-cloud-rest-api) | About the REST API The Wowza Streaming Cloud\<supTM\</sup REST API (application programming interface) offers complete programmatic control over live streams, tr | `https://api-sandbox.cloud.wowza.com/api/v1/api/v1/specs` |  | global | free key | 200 |
+| [Yle Teletext API](https://developer.yle.fi/en/api/index.html) | Finnish broadcaster Yle's teletext pages (news, sports, weather, TV listings) as JSON/XML per page and subpage, or as PNG images. Non-commercial use. | `https://external.api.yle.fi/v1/teletext/pages/100.json?app_id=YOUR_APP_ID&app_key=YOUR_APP_KEY` | 10 req/s, 300 req/hour, 7200 req/day | FI | free key | 200 |
