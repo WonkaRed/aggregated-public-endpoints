@@ -183,7 +183,6 @@
 | [Sleeper API](https://docs.sleeper.com) | Fantasy football leagues, players, drafts, trending players; read-only no key | `https://api.sleeper.app/v1/players/nfl/trending/add` | \<1000 calls/min | US | none | 200 |
 | [Sleeper NBA players](https://docs.sleeper.com) | Sleeper player DB for NBA | `https://api.sleeper.app/v1/players/nba` |  | US | none | 200 |
 | [Sleeper state API](https://docs.sleeper.com) | Current NFL week/season state | `https://api.sleeper.app/v1/state/nfl` |  | US | none | 200 |
-| [Sorare GraphQL API](https://github.com/sorare/api) | Official GraphQL API of the Sorare fantasy football/MLB/NBA game: players, cards, clubs, competitions and scores; public queries without login, JWT for user data | `https://api.sorare.com/graphql` | rate limited; higher with API key | global | none | 200 |
 | [Sports Data API Providers](https://sportsapi.com/api-directory/) | Reviews, coverage and prices from sports data providers. | docs only |  | global | unconfirmed, check docs | 200 |
 | [sportsdataverse (hoopR / wehoop data)](https://cran.r-project.org/web/packages/wehoop/readme/README.html) | Open sportsdataverse projects publishing ESPN-derived play-by-play, box scores and schedules for NBA, WNBA, men's/women's college basketball and more as release files loaded by hoopR/wehoop | docs only | none | US | none | 200 |
 | [Squiggle](https://api.squiggle.com.au) | Fixtures, results and predictions for Australian Football League matches | docs only |  | global | none | 200 |
