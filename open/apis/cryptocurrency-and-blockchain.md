@@ -446,8 +446,6 @@
 | [MoltNode](https://moltnode.ag) | Free JSON-RPC gateway for 31 blockchains, including Ethereum, Base, Arbitrum, Solana and Sui, with one URL per chain and no sign-up | docs only |  | global | none | 200 |
 | [Monero: xmrchain.net API](https://github.com/moneroexamples/onion-monero-blockchain-explorer) | Onion-explorer JSON API for Monero | `https://xmrchain.net/api/networkinfo` |  | global | none | 200 |
 | [monerometrics](https://monerometrics.net) | Reorg-aware Monero (XMR) network metrics, mining-pool centralization and chain reorganizations | docs only |  | global | none | 200 |
-| [Moonbeam RPC (dRPC)](https://drpc.org/chainlist/moonbeam) | Keyless public JSON-RPC for Moonbeam (chain 1284) | `POST https://moonbeam.drpc.org {"jsonrpc":"2.0","method":"eth_chainId","params":[],"id":1}` | Free public tier is rate-limited. Official rpc.api.moonbeam.network did not connect from here | global | none | 200 |
-| [Moonriver RPC (dRPC)](https://drpc.org/chainlist/moonriver) | Keyless public JSON-RPC for Moonriver (chain 1285) | `POST https://moonriver.drpc.org {"jsonrpc":"2.0","method":"eth_chainId","params":[],"id":1}` | Free public tier is rate-limited. Official Moonriver RPC did not connect from here | global | none | 200 |
 | [Morpho Blue API](https://docs.morpho.org/) | Morpho lending markets, vaults, APYs | `https://blue-api.morpho.org/graphql?query=%7Bmarkets%28first%3A2%29%7Bitems%7BuniqueKey%7D%7D%7D` |  | global | none | 400 |
 | [Morpho GraphQL API](https://docs.morpho.org/tools/offchain/api/morpho/) | Morpho markets, vaults, rates, positions | `https://api.morpho.org/graphql` |  | global | none | 400 |
 | [MultiversX API](https://api.multiversx.com/) | MultiversX (Elrond) public API: accounts, txs, tokens, network stats | `https://api.multiversx.com/stats` |  | global | none | 200 |
@@ -500,7 +498,6 @@
 | [Polygon PoS RPC (PublicNode)](https://polygon.publicnode.com) | Keyless public JSON-RPC for Polygon PoS mainnet (chain 137) | `POST https://polygon-bor-rpc.publicnode.com {"jsonrpc":"2.0","method":"eth_chainId","params":[],"id":1}` | Shared public endpoint; fair-use limits. Official polygon-rpc.com now returns 401 | global | none | 200 |
 | [Polygon public RPC](https://docs.polygon.technology/pos/reference/rpc-endpoints/) | Polygon PoS public RPC | docs only |  | global | none | 200 |
 | [Polygon RPC](https://docs.polygon.technology/) | Public Polygon PoS RPC | docs only | POST JSON-RPC | global | none | 200 |
-| [Polygon zkEVM RPC](https://docs.polygon.technology/zkEVM/) | Official Polygon zkEVM public JSON-RPC (chain 1101) | `POST https://zkevm-rpc.com {"jsonrpc":"2.0","method":"eth_chainId","params":[],"id":1}` | Polygon zkEVM is being sunset; may stop working | global | none | 200 |
 | [Polymarket CLOB Markets](https://docs.polymarket.com/) | Order book markets and prices | `https://clob.polymarket.com/markets` |  | global | none | 200 |
 | [Polymarket Data API](https://docs.polymarket.com/) | Trades, positions, activity | `https://data-api.polymarket.com/trades?limit=10` |  | global | none | 200 |
 | [Polymarket Gamma Events](https://docs.polymarket.com/) | Prediction market events | `https://gamma-api.polymarket.com/events?limit=10` |  | global | none | 200 |

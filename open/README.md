@@ -2,9 +2,9 @@
 
 Endpoints that answered without a signup. Check the Auth column: "unconfirmed, check docs" means the source did not say whether a key is needed.
 
-Total: 27,677. [Back to the main README](../README.md)
+Total: 27,673. [Back to the main README](../README.md)
 
-## APIs (22,529)
+## APIs (22,525)
 
 - [Accessibility](apis/accessibility.md) (313)
 - [Animals](apis/animals.md) (133)
@@ -14,7 +14,7 @@ Total: 27,677. [Back to the main README](../README.md)
 - [Books & Literature](apis/books-and-literature.md) (126)
 - [Business & Companies](apis/business-and-companies.md) (208)
 - [Calendar & Holidays](apis/calendar-and-holidays.md) (108)
-- [Cryptocurrency & Blockchain](apis/cryptocurrency-and-blockchain.md) (601)
+- [Cryptocurrency & Blockchain](apis/cryptocurrency-and-blockchain.md) (598)
 - [Currency & Exchange](apis/currency-and-exchange.md) (158)
 - [Data Engineering](apis/data-engineering.md) (45)
 - [Data Validation & Utilities](apis/data-validation-and-utilities.md) (306)
@@ -40,7 +40,7 @@ Total: 27,677. [Back to the main README](../README.md)
 - [Frontend Performance: Web Vitals & Audits](apis/frontend-performance-web-vitals-and-audits.md) (18)
 - [Game Dev & Graphics](apis/game-dev-and-graphics.md) (222)
 - [Games & Comics](apis/games-and-comics.md) (289)
-- Geocoding & Maps: [part 1](apis/geocoding-and-maps-part-1.md), [part 2](apis/geocoding-and-maps-part-2.md) (1,593)
+- Geocoding & Maps: [part 1](apis/geocoding-and-maps-part-1.md), [part 2](apis/geocoding-and-maps-part-2.md) (1,592)
 - [Government & Open Data](apis/government-and-open-data.md) (1,133)
 - [Health & Medicine](apis/health-and-medicine.md) (829)
 - [Images & Placeholders](apis/images-and-placeholders.md) (184)

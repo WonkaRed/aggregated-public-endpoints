@@ -269,9 +269,24 @@ Compiled from community API lists plus original research, live-checked {date}. D
 """
 
 
+def bare_url(e):
+    """The URL of an endpoint string, without a leading HTTP method and trailing body ("POST https://x {...}")."""
+    parts = e.split(None, 2)
+    return parts[1] if len(parts) > 1 and parts[0].isupper() else e
+
+
+# Listed URLs (no method or body) in dedupe's normal form, so "POST <url> {body}", a reordered query or a
+# trailing slash cannot hide a listed endpoint. Listed POST forms with a body still match only exactly.
+KNOWN_BAD_URLS = {norm_url(k) for k in KNOWN_BAD if bare_url(k) == k}
+
+
 def known_bad(e):
-    """Raw or credential-scrubbed endpoint listed in scripts/known-bad.tsv."""
-    return bool(e) and (e in KNOWN_BAD or scrub(e, "", []) in KNOWN_BAD)
+    """Raw or credential-scrubbed endpoint, or its bare URL, listed in scripts/known-bad.tsv."""
+    if not e:
+        return False
+    urls = {bare_url(e)}
+    urls |= {scrub(u, "", []) for u in urls}
+    return bool({e, scrub(e, "", [])} & KNOWN_BAD or urls & KNOWN_BAD or any(norm_url(u) in KNOWN_BAD_URLS for u in urls))
 
 
 def main(path):
